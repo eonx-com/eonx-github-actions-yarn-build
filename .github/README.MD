@@ -1,3 +1,3 @@
-# Project Template
+# Yarn Build GitHub Action
 
-Placeholder document
+This is an action to perform a Yarn build.
