@@ -5,7 +5,7 @@ RUN apt-get update; \
     apt-get install -y --no-install-recommends jq; \
     rm -rf /var/lib/apt/lists/*;
 
-RUN npm install -g vite;
+RUN npm install vite;
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
